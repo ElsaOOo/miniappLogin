@@ -1,0 +1,26 @@
+/**index.wxss**/
+page {
+  height: 100vh;
+  background: #eee;
+}
+.img {
+  display: block;
+  width: 100%;
+}
+.form {
+  margin-top: 20px;
+}
+.form input {
+  background: #fff;
+  height:40px;
+  line-height:40px;
+}
+.form input:first-child {
+  border-bottom: solid 1px rgb(114, 110, 110);
+}
+.btn-area {
+  padding: 20px 20px 0 20px;
+}
+.btn-area button {
+  margin-bottom: 10px;
+}
