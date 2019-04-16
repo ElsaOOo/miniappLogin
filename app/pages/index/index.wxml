@@ -7,7 +7,11 @@
     <input placeholder='密码'></input>
     <view class='btn-area'>
       <button type='primary'>普通登录</button>
-      <button type='warn'>微信登录</button>
+      <button 
+        type='warn' 
+        open-type='getUserInfo'
+        bindgetuserinfo='doLogin'
+        >微信登录</button>
     </view>
   </form>
  </view>
